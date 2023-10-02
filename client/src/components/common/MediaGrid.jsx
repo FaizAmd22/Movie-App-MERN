@@ -5,7 +5,7 @@ const MediaGrid = ({ medias, mediaType }) => {
     return (
         <Grid container spacing={1} sx={{ marginRight: "-8x!important" }}>
             {medias.map((media, index) => (
-                <Grid item sx={6} sm={4} md={3} key={index}>
+                <Grid item xs={6} sm={4} md={2} key={index}>
                     <MediaItem media={media} mediaType={mediaType}/>
                 </Grid>
             ))}
