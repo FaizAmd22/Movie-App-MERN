@@ -154,7 +154,8 @@ const HeroSlide = ({ mediaType, mediaCategory }) => {
                             {/* overview */}
                             <Typography variant="body1" sx={{
                                 ...uiConfigs.style.typoLines(4),
-                                width: "60vh"
+                                width: "60vh",
+                                padding: "20px"
                             }}>
                                 {movie.overview}
                             </Typography>
